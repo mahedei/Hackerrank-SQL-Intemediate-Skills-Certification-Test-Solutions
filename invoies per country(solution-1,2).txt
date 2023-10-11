@@ -15,7 +15,7 @@ GROUP BY
 HAVING 
     AVG(i.total_price) > (SELECT AVG(total_price) FROM invoice);
 
------ invoies per country(solution_1)
+----- invoies per country(solution_2)
 
 
 SELECT
